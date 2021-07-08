@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js")
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content 
+    section#introSection 
+        div Welcome to Krishna's Dance Academy 
+        div.small Eat sleep Dance Repeat       
+
+    section#missionSection 
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/bg1.png", alt="")
+                div.card-content
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis ipsum quis omnis eum.    
+        div.card
+            h3 Dance the way as u like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/bg2.png", alt="")
+                div.card-content
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis ipsum quis omnis eum.
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/bg3.png", alt="")
+                div.card-content
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit., ipsum dolor sit amet consectetur adipisicing elit. Nemo nobis ipsum quis omnis eum.    
+    section#sponserSection 
+        h2 Our Sponsers
+        div#sponsers
+            img(src="/static/img/logo5.png", alt="sponser image", class="spImage")
+            img(src="/static/img/logo6.png", alt="sponser image", class="spImage")
+            img(src="/static/img/logo7.png", alt="sponser image", class="spImage")
+            img(src="/static/img/logo8.png", alt="sponser image", class="spImage")

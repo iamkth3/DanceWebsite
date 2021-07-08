@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+#logo img{
+    height: 50px;
+    /* filter: invert(1); */
+}
+#navbar{
+    background-color: #e01111;
+    padding: 18px 14px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 40px;
+    color: white;
+    font-size: 1.2rem;
+
+
+}
+#navbar li a:hover{
+    
+    color: black;
+    font-size: 1.4rem;
+
+
+}
+
+#introSection{
+    color: #f30467;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 5.4rem;
+    font:bold;
+    background:center/cover no-repeat url("/static/bg.jpg") ;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    height: 291px;
+    background-color: red;
+
+
+}
+#introSection div.small{
+    font-size: 3.3rem;
+    
+
+}
+#sponserSection{
+    height: 264px;
+    background-color: rgb(196, 158, 33);
+
+}
+
+
+#sponserSection h2{
+    text-align: center;
+    padding-top: 12px;
+}
+
+#sponsers{
+    height: 120px;
+    max-width: 938px;
+    margin: auto;
+
+}
+
+.spImage{
+    height: 155px;
+    margin: 20px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 31%;
+    margin: 22px 13px;
+    height: 180px;
+    display:inline-block;
+    background-color: #d0b8b8;
+}
+.card h3{
+    text-align: center;
+    margin: 7px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img{
+    height: 135px;
+    padding: 0 14px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+#missionSection{
+    height: 300px;
+    background-color: rgb(231, 144, 14);
+    padding: 0px 116px;
+    
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+}
+
+    #footer{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
